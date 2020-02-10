@@ -4,3 +4,6 @@
 [submodule "3rdparty/pbrt-parser"]
 	path = 3rdparty/pbrt-parser
 	url = https://github.com/ingowald/pbrt-parser
+[submodule "3rdparty/ptex"]
+	path = 3rdparty/ptex
+	url = https://github.com/wdas/ptex.git

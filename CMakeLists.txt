@@ -17,12 +17,15 @@ set(VSNRAY_CONFIG_DIR "${CMAKE_CURRENT_BINARY_DIR}/3rdparty/visionaray/config")
 include_directories(${VSNRAY_CONFIG_DIR})
 
 include_directories(3rdparty/pbrt-parser/pbrtParser/include)
+include_directories(3rdparty/ptex/src/ptex)
 include_directories(3rdparty/visionaray/include)
 include_directories(3rdparty/visionaray/src)
+include_directories(3rdparty/visionaray/src/3rdparty/CmdLine/include)
 
 add_executable(InstanceViewer InstanceViewer.cpp)
 
 target_link_libraries(InstanceViewer pbrtParser)
+target_link_libraries(InstanceViewer Ptex_static)
 target_link_libraries(InstanceViewer visionaray)
 target_link_libraries(InstanceViewer visionaray_common)
 target_link_libraries(InstanceViewer ${GLEW_LIBRARY})
