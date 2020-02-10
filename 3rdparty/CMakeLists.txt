@@ -1,0 +1,7 @@
+add_subdirectory(pbrt-parser)
+set(PBRTPARSER_FOUND TRUE)
+set(PBRTPARSER_INCLUDE_DIR pbrt-parser/pbrtParser/include)
+set(PBRTPARSER_LIBRARY pbrtParser)
+set(VSNRAY_ENABLE_CUDA OFF)
+set(VSNRAY_ENABLE_VIEWER OFF)
+add_subdirectory(visionaray)

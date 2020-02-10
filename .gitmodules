@@ -1,0 +1,6 @@
+[submodule "3rdparty/visionaray"]
+	path = 3rdparty/visionaray
+	url = https://github.com/szellmann/visionaray
+[submodule "3rdparty/pbrt-parser"]
+	path = 3rdparty/pbrt-parser
+	url = https://github.com/ingowald/pbrt-parser
