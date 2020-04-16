@@ -74,7 +74,7 @@ The viewer application can create pretty pictures like the ones below. Color cod
 Source Code Organization
 ------------------------
 
-The file [kd_tree.h](/kd_tree.h) includes the _k_-d tree implementation. In [InstanceViewer.cpp#L960](/InstanceViewer.cpp#L960) the _k_-d tree is created. The file [svt.h](svt.h) includes a 3-d summed area table implementation (a.k.a. "summed volume table") that we use to virtually split large base meshes as described in the paper. [Pathtracer.hpp](Pathtracer.hpp) includes a simple path tracer that we use for rendering.
+The file [kd_tree.h](/kd_tree.h) includes the _k_-d tree implementation. In [InstanceViewer.cpp#L963](/InstanceViewer.cpp#L963) the _k_-d tree is created. The file [svt.h](svt.h) includes a 3-d summed area table implementation (a.k.a. "summed volume table") that we use to virtually split large base meshes as described in the paper. [Pathtracer.hpp](Pathtracer.hpp) includes a simple path tracer that we use for rendering.
 
 Third-Party Libraries
 ---------------------
