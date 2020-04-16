@@ -51,7 +51,12 @@ Pictures
 
 The viewer application can create pretty pictures like the ones below. Color coding shows the assignment of instances to compute nodes.
 
-<img src="img/pic1.png" width="150" /><img src="img/pic2.png" width="150" /><img src="img/pic3.png" width="150" /><img src="img/pic4.png" width="150" /><img src="img/pic5.png" width="150" />
+<table><tr><td>
+<img src="img/pic1.png" width="175" /></td><td>
+<img src="img/pic2.png" width="175" /></td><td>
+<img src="img/pic3.png" width="175" /></td><td>
+<img src="img/pic4.png" width="175" /></td><td>
+<img src="img/pic5.png" width="175" /></td></tr></table>
 
 Source Code Organization
 ------------------------
