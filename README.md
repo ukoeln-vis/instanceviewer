@@ -12,6 +12,17 @@ Stefan Zellmann, Nate Morrical, Ingo Wald and Valerio Pascucci
 
 Eurographics Symposium on Parallel Graphics and Visualization (EGPGV 2020)
 
+```
+@inproceedings {ZellmannMorricalWaldPascucci:2020,
+booktitle = {Eurographics Symposium on Parallel Graphics and Visualization},
+editor = {Steffen Frey and Jian Huang and Filip Sadlo}
+title = {Finding Efficient Spatial Distributions for Massively Instanced 3-d Models},
+author = {Zellmann, Stefan and Morrical, Nate and Wald, Ingo and Pascucci, Valerio},
+year = {2020},
+publisher = {The Eurographics Association}
+}
+```
+
 Description
 -----------
 
