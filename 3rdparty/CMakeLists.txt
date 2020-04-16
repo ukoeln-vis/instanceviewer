@@ -1,3 +1,6 @@
+# This file is distributed under the MIT license.
+# See the LICENSE file for details.
+
 add_subdirectory(pbrt-parser)
 set(PBRTPARSER_FOUND TRUE)
 set(PBRTPARSER_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/pbrt-parser/pbrtParser/include)
