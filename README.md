@@ -72,8 +72,8 @@ The following third-party libraries are included as submodules:
 - [Visionaray](http://github.com/szellmann/visionaray/) math utilities / CPU BVH traversal for the simple path tracer.
 
 Building the application requires a couple more tools and external libraries that must be provided by the user:
-- [CMake][http://www.cmake.org/download/] version 2.8.9 or newer
-- [OpenGL][https://www.opengl.org]
-- [GLEW][http://glew.sourceforge.net/]
-- [Boost][http://www.boost.org/users/download/]
-- [GLUT][https://www.opengl.org/resources/libraries/glut/] or [FreeGLUT][http://freeglut.sourceforge.net/index.php#download]
+- [CMake](http://www.cmake.org/download/) version 2.8.9 or newer
+- [OpenGL](https://www.opengl.org)
+- [GLEW](http://glew.sourceforge.net/)
+- [Boost](http://www.boost.org/users/download/)
+- [GLUT](https://www.opengl.org/resources/libraries/glut/) or [FreeGLUT](http://freeglut.sourceforge.net/index.php#download)
