@@ -8,7 +8,9 @@ Source code repository accompanying the scientific paper
 "Finding Efficient Spatial Distributions for Massively Instanced 3-d Models".
 -----------------------------------------------------------------------------
 
-S. Zellmann, N. Morrical, I. Wald and V. Pascucci
+Stefan Zellmann, Nate Morrical, Ingo Wald and Valerio Pascucci
+
+Eurographics Symposium on Parallel Graphics and Visualization (EGPGV 2020)
 
 Description
 -----------
