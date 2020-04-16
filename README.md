@@ -32,7 +32,7 @@ The paper presents a _k_-d tree builder that is instance-aware:
 - Partitioning instances to either side of a split plane candidate might require the base meshes referenced by the instances to be replicated on both sides.
 - The paper proposes a split heuristic that takes memory consumption (both total and per node) into account.
 
-This repository includes an implementation of the _k_-d tree builder and a simple viewer application that can load instanced 3-d models, builds a _k_-d tree, and colorizes the obtained partitioning. The viewer application does _not_ implement parallel rendering; it's main purpose is to make the _k_-d tree implementation a bit more accessible than merely providing its source code. Models that can be loaded are quite restricted, the [Moana JSON files](https://www.technology.disneyanimation.com/islandscene) can be loaded, as well as some of the [instanced pbrt-v3 files](https://www.pbrt.org/scenes-v3.html).
+This repository includes an implementation of the _k_-d tree builder and a simple viewer application that can load instanced 3-d models, builds a _k_-d tree, and colorizes the obtained partitioning. The viewer application does _not_ implement parallel rendering; it's main purpose is to make the _k_-d tree implementation a bit more accessible than merely providing the latter's source code. Models that can be loaded are quite restricted, the [Moana JSON files](https://www.technology.disneyanimation.com/islandscene) can be loaded, as well as some of the [instanced pbrt-v3 files](https://www.pbrt.org/scenes-v3.html).
 
 Command-Line Arguments
 ----------------------
@@ -74,7 +74,7 @@ The viewer application can create pretty pictures like the ones below. Color cod
 Source Code Organization
 ------------------------
 
-The file [kd_tree.h](/kd_tree.h) includes the _k_-d tree implementation. In [InstanceViewer.cpp#L960](/InstanceViewer.cpp#L960) the _k_-d tree is created. The file [svt.h](svt.h) includes a 3-d summed area table implementation (a.k.a. "summed volume table") that we use to virtually split large base meshes as described in the paper. [Pathtracer.hpp](Pathtracer.hpp) includes a simple, naive path tracer that we use for rendering.
+The file [kd_tree.h](/kd_tree.h) includes the _k_-d tree implementation. In [InstanceViewer.cpp#L960](/InstanceViewer.cpp#L960) the _k_-d tree is created. The file [svt.h](svt.h) includes a 3-d summed area table implementation (a.k.a. "summed volume table") that we use to virtually split large base meshes as described in the paper. [Pathtracer.hpp](Pathtracer.hpp) includes a simple path tracer that we use for rendering.
 
 Third-Party Libraries
 ---------------------
